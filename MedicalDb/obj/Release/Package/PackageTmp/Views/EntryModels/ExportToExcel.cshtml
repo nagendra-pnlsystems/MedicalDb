@@ -1,0 +1,190 @@
+﻿@model IEnumerable<MedicalDb.Models.EntryModel>
+
+@{
+    ViewBag.Title = "ExportToExcel";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>ExportToExcel</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        @*<th>
+            @Html.DisplayNameFor(model => model.grosssalary.Value)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Relationship.RelationName)
+        </th>*@
+        <th>
+            @Html.DisplayNameFor(model => model.First_Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Middle_Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Last_Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DOB)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Marital_Status)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Visa_Category)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Passport_Number)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Category)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Nationality)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Gender)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Emirates_ID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.City_of_Residence)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Date_Time)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Company_Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.UID_Number)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SubGroup_Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Emirates_Of_Visa)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Work_Location)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Entity_Id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Entity_Type)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Establishment_Id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.medical_card)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.photo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.passport_copy)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.id_copy)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        @*<td>
+            @Html.DisplayFor(modelItem => item.grosssalary.Value)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Relationship.RelationName)
+        </td>*@
+        <td>
+            @Html.DisplayFor(modelItem => item.First_Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Middle_Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Last_Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DOB)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Marital_Status)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Visa_Category)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Passport_Number)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Category)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nationality)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Gender)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Emirates_ID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.City_of_Residence)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Date_Time)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Company_Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.UID_Number)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SubGroup_Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Emirates_Of_Visa)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Work_Location)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Entity_Id)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Entity_Type)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Establishment_Id)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.medical_card)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.photo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.passport_copy)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.id_copy)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.EntryId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.EntryId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.EntryId })
+        </td>
+    </tr>
+}
+
+</table>

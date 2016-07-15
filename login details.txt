@@ -1,0 +1,9 @@
+user
+====
+username: test
+password: Pass@w0rd
+
+admin
+======
+username: admin
+password: Pass@w0rd

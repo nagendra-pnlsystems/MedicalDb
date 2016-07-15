@@ -1,0 +1,493 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="medicaldbModel.Store" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.5" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="entrymodels">
+          <Key>
+            <PropertyRef Name="EntryId" />
+          </Key>
+          <Property Name="EntryId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Beneficiary_First_Name" Type="longtext" Nullable="false" />
+          <Property Name="Beneficiary_Middle_Name" Type="longtext" />
+          <Property Name="Beneficiary_Last_Name" Type="longtext" Nullable="false" />
+          <Property Name="Principal_First_Name" Type="longtext" Nullable="false" />
+          <Property Name="Principal_Middle_Name" Type="longtext" />
+          <Property Name="Principal_Last_Name" Type="longtext" Nullable="false" />
+          <Property Name="DOB" Type="longtext" Nullable="false" />
+          <Property Name="maritalstatus_id" Type="int" Nullable="false" />
+          <Property Name="visacategory_id" Type="int" Nullable="false" />
+          <Property Name="Passport_Number" Type="longtext" Nullable="false" />
+          <Property Name="Category" Type="longtext" Nullable="false" />
+          <Property Name="Nationality" Type="longtext" Nullable="false" />
+          <Property Name="gender_id" Type="int" Nullable="false" />
+          <Property Name="Rid" Type="int" Nullable="false" />
+          <Property Name="Sid" Type="int" Nullable="false" />
+          <Property Name="Emirates_ID" Type="longtext" Nullable="false" />
+          <Property Name="City_of_Residence" Type="longtext" Nullable="false" />
+          <Property Name="Company_Name" Type="longtext" Nullable="false" />
+          <Property Name="UID_Number" Type="longtext" Nullable="false" />
+          <Property Name="SubGroup_Name" Type="longtext" Nullable="false" />
+          <Property Name="Emirates_Of_Visa" Type="longtext" Nullable="false" />
+          <Property Name="Work_Location" Type="longtext" Nullable="false" />
+          <Property Name="Entity_Id" Type="longtext" Nullable="false" />
+          <Property Name="Entity_Type" Type="longtext" Nullable="false" />
+          <Property Name="Establishment_Id" Type="longtext" Nullable="false" />
+          <Property Name="insurance_companyname" Type="longtext" Nullable="false" />
+          <Property Name="policy" Type="longtext" Nullable="false" />
+          <Property Name="PhoneNumber" Type="longtext" Nullable="false" />
+          <Property Name="Email" Type="longtext" Nullable="false" />
+          <Property Name="photo" Type="longtext" />
+          <Property Name="Visa" Type="longtext" />
+          <Property Name="passport_copy" Type="longtext" />
+          <Property Name="Emirates_id_copy" Type="longtext" />
+          <Property Name="medical_card" Type="longtext" />
+          <Property Name="other_documents" Type="longtext" />
+          <Property Name="other_field_1" Type="varchar" MaxLength="250" Nullable="false" />
+          <Property Name="other_field_2" Type="varchar" MaxLength="250" Nullable="false" />
+          <Property Name="other_field_3" Type="varchar" MaxLength="250" Nullable="false" />
+          <Property Name="Date_Time" Type="longtext" />
+        </EntityType>
+        <EntityType Name="genders">
+          <Key>
+            <PropertyRef Name="gender_id" />
+          </Key>
+          <Property Name="gender_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="longtext" />
+        </EntityType>
+        <EntityType Name="grosssalaries">
+          <Key>
+            <PropertyRef Name="Sid" />
+          </Key>
+          <Property Name="Sid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Value" Type="longtext" />
+        </EntityType>
+        <EntityType Name="marital_status">
+          <Key>
+            <PropertyRef Name="maritalstatus_id" />
+          </Key>
+          <Property Name="maritalstatus_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="longtext" />
+        </EntityType>
+        <EntityType Name="relationships">
+          <Key>
+            <PropertyRef Name="Rid" />
+          </Key>
+          <Property Name="Rid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="RelationName" Type="longtext" />
+        </EntityType>
+        <EntityType Name="visa_category">
+          <Key>
+            <PropertyRef Name="visacategory_id" />
+          </Key>
+          <Property Name="visacategory_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="longtext" />
+        </EntityType>
+        <Association Name="FK_EntryModels_Genders_gender_id">
+          <End Role="genders" Type="Self.genders" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="entrymodels" Type="Self.entrymodels" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="genders">
+              <PropertyRef Name="gender_id" />
+            </Principal>
+            <Dependent Role="entrymodels">
+              <PropertyRef Name="gender_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_EntryModels_GrossSalaries_Sid">
+          <End Role="grosssalaries" Type="Self.grosssalaries" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="entrymodels" Type="Self.entrymodels" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="grosssalaries">
+              <PropertyRef Name="Sid" />
+            </Principal>
+            <Dependent Role="entrymodels">
+              <PropertyRef Name="Sid" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_EntryModels_Marital_Status_maritalstatus_id">
+          <End Role="marital_status" Type="Self.marital_status" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="entrymodels" Type="Self.entrymodels" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="marital_status">
+              <PropertyRef Name="maritalstatus_id" />
+            </Principal>
+            <Dependent Role="entrymodels">
+              <PropertyRef Name="maritalstatus_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_EntryModels_Relationships_Rid">
+          <End Role="relationships" Type="Self.relationships" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="entrymodels" Type="Self.entrymodels" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="relationships">
+              <PropertyRef Name="Rid" />
+            </Principal>
+            <Dependent Role="entrymodels">
+              <PropertyRef Name="Rid" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_EntryModels_Visa_Category_visacategory_id">
+          <End Role="visa_category" Type="Self.visa_category" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="entrymodels" Type="Self.entrymodels" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="visa_category">
+              <PropertyRef Name="visacategory_id" />
+            </Principal>
+            <Dependent Role="entrymodels">
+              <PropertyRef Name="visacategory_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="medicaldbModelStoreContainer">
+          <EntitySet Name="entrymodels" EntityType="Self.entrymodels" Schema="medicaldb" store:Type="Tables" />
+          <EntitySet Name="genders" EntityType="Self.genders" Schema="medicaldb" store:Type="Tables" />
+          <EntitySet Name="grosssalaries" EntityType="Self.grosssalaries" Schema="medicaldb" store:Type="Tables" />
+          <EntitySet Name="marital_status" EntityType="Self.marital_status" Schema="medicaldb" store:Type="Tables" />
+          <EntitySet Name="relationships" EntityType="Self.relationships" Schema="medicaldb" store:Type="Tables" />
+          <EntitySet Name="visa_category" EntityType="Self.visa_category" Schema="medicaldb" store:Type="Tables" />
+          <AssociationSet Name="FK_EntryModels_Genders_gender_id" Association="Self.FK_EntryModels_Genders_gender_id">
+            <End Role="genders" EntitySet="genders" />
+            <End Role="entrymodels" EntitySet="entrymodels" />
+          </AssociationSet>
+          <AssociationSet Name="FK_EntryModels_GrossSalaries_Sid" Association="Self.FK_EntryModels_GrossSalaries_Sid">
+            <End Role="grosssalaries" EntitySet="grosssalaries" />
+            <End Role="entrymodels" EntitySet="entrymodels" />
+          </AssociationSet>
+          <AssociationSet Name="FK_EntryModels_Marital_Status_maritalstatus_id" Association="Self.FK_EntryModels_Marital_Status_maritalstatus_id">
+            <End Role="marital_status" EntitySet="marital_status" />
+            <End Role="entrymodels" EntitySet="entrymodels" />
+          </AssociationSet>
+          <AssociationSet Name="FK_EntryModels_Relationships_Rid" Association="Self.FK_EntryModels_Relationships_Rid">
+            <End Role="relationships" EntitySet="relationships" />
+            <End Role="entrymodels" EntitySet="entrymodels" />
+          </AssociationSet>
+          <AssociationSet Name="FK_EntryModels_Visa_Category_visacategory_id" Association="Self.FK_EntryModels_Visa_Category_visacategory_id">
+            <End Role="visa_category" EntitySet="visa_category" />
+            <End Role="entrymodels" EntitySet="entrymodels" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="medicaldbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="entrymodel">
+          <Key>
+            <PropertyRef Name="EntryId" />
+          </Key>
+          <Property Name="EntryId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Beneficiary_First_Name" Type="String" MaxLength="1073741823" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Beneficiary_Middle_Name" Type="String" MaxLength="1073741823" FixedLength="false" Unicode="false" />
+          <Property Name="Beneficiary_Last_Name" Type="String" MaxLength="1073741823" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Principal_First_Name" Type="String" MaxLength="1073741823" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Principal_Middle_Name" Type="String" MaxLength="1073741823" FixedLength="false" Unicode="false" />
+          <Property Name="Principal_Last_Name" Type="String" MaxLength="1073741823" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="DOB" Type="String" MaxLength="1073741823" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="maritalstatus_id" Type="Int32" Nullable="false" />
+          <Property Name="visacategory_id" Type="Int32" Nullable="false" />
+          <Property Name="Passport_Number" Type="String" MaxLength="1073741823" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Category" Type="String" MaxLength="1073741823" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Nationality" Type="String" MaxLength="1073741823" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="gender_id" Type="Int32" Nullable="false" />
+          <Property Name="Rid" Type="Int32" Nullable="false" />
+          <Property Name="Sid" Type="Int32" Nullable="false" />
+          <Property Name="Emirates_ID" Type="String" MaxLength="1073741823" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="City_of_Residence" Type="String" MaxLength="1073741823" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Company_Name" Type="String" MaxLength="1073741823" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="UID_Number" Type="String" MaxLength="1073741823" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="SubGroup_Name" Type="String" MaxLength="1073741823" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Emirates_Of_Visa" Type="String" MaxLength="1073741823" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Work_Location" Type="String" MaxLength="1073741823" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Entity_Id" Type="String" MaxLength="1073741823" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Entity_Type" Type="String" MaxLength="1073741823" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Establishment_Id" Type="String" MaxLength="1073741823" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="insurance_companyname" Type="String" MaxLength="1073741823" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="policy" Type="String" MaxLength="1073741823" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="PhoneNumber" Type="String" MaxLength="1073741823" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Email" Type="String" MaxLength="1073741823" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="photo" Type="String" MaxLength="1073741823" FixedLength="false" Unicode="false" />
+          <Property Name="Visa" Type="String" MaxLength="1073741823" FixedLength="false" Unicode="false" />
+          <Property Name="passport_copy" Type="String" MaxLength="1073741823" FixedLength="false" Unicode="false" />
+          <Property Name="Emirates_id_copy" Type="String" MaxLength="1073741823" FixedLength="false" Unicode="false" />
+          <Property Name="medical_card" Type="String" MaxLength="1073741823" FixedLength="false" Unicode="false" />
+          <Property Name="other_documents" Type="String" MaxLength="1073741823" FixedLength="false" Unicode="false" />
+          <Property Name="Date_Time" Type="String" MaxLength="1073741823" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="gender" Relationship="Self.FK_EntryModels_Genders_gender_id" FromRole="entrymodels" ToRole="genders" />
+          <NavigationProperty Name="grosssalary" Relationship="Self.FK_EntryModels_GrossSalaries_Sid" FromRole="entrymodels" ToRole="grosssalaries" />
+          <NavigationProperty Name="marital_status" Relationship="Self.FK_EntryModels_Marital_Status_maritalstatus_id" FromRole="entrymodels" ToRole="marital_status" />
+          <NavigationProperty Name="relationship" Relationship="Self.FK_EntryModels_Relationships_Rid" FromRole="entrymodels" ToRole="relationships" />
+          <NavigationProperty Name="visa_category" Relationship="Self.FK_EntryModels_Visa_Category_visacategory_id" FromRole="entrymodels" ToRole="visa_category" />
+          <Property Name="other_field_1" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="false" />
+          <Property Name="other_field_2" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="false" />
+          <Property Name="other_field_3" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="gender">
+          <Key>
+            <PropertyRef Name="gender_id" />
+          </Key>
+          <Property Name="gender_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="1073741823" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="entrymodels" Relationship="Self.FK_EntryModels_Genders_gender_id" FromRole="genders" ToRole="entrymodels" />
+        </EntityType>
+        <EntityType Name="grosssalary">
+          <Key>
+            <PropertyRef Name="Sid" />
+          </Key>
+          <Property Name="Sid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Value" Type="String" MaxLength="1073741823" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="entrymodels" Relationship="Self.FK_EntryModels_GrossSalaries_Sid" FromRole="grosssalaries" ToRole="entrymodels" />
+        </EntityType>
+        <EntityType Name="marital_status">
+          <Key>
+            <PropertyRef Name="maritalstatus_id" />
+          </Key>
+          <Property Name="maritalstatus_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="1073741823" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="entrymodels" Relationship="Self.FK_EntryModels_Marital_Status_maritalstatus_id" FromRole="marital_status" ToRole="entrymodels" />
+        </EntityType>
+        <EntityType Name="relationship">
+          <Key>
+            <PropertyRef Name="Rid" />
+          </Key>
+          <Property Name="Rid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="RelationName" Type="String" MaxLength="1073741823" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="entrymodels" Relationship="Self.FK_EntryModels_Relationships_Rid" FromRole="relationships" ToRole="entrymodels" />
+        </EntityType>
+        <EntityType Name="visa_category">
+          <Key>
+            <PropertyRef Name="visacategory_id" />
+          </Key>
+          <Property Name="visacategory_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="1073741823" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="entrymodels" Relationship="Self.FK_EntryModels_Visa_Category_visacategory_id" FromRole="visa_category" ToRole="entrymodels" />
+        </EntityType>
+        <Association Name="FK_EntryModels_Genders_gender_id">
+          <End Role="genders" Type="Self.gender" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="entrymodels" Type="Self.entrymodel" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="genders">
+              <PropertyRef Name="gender_id" />
+            </Principal>
+            <Dependent Role="entrymodels">
+              <PropertyRef Name="gender_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_EntryModels_GrossSalaries_Sid">
+          <End Role="grosssalaries" Type="Self.grosssalary" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="entrymodels" Type="Self.entrymodel" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="grosssalaries">
+              <PropertyRef Name="Sid" />
+            </Principal>
+            <Dependent Role="entrymodels">
+              <PropertyRef Name="Sid" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_EntryModels_Marital_Status_maritalstatus_id">
+          <End Role="marital_status" Type="Self.marital_status" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="entrymodels" Type="Self.entrymodel" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="marital_status">
+              <PropertyRef Name="maritalstatus_id" />
+            </Principal>
+            <Dependent Role="entrymodels">
+              <PropertyRef Name="maritalstatus_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_EntryModels_Relationships_Rid">
+          <End Role="relationships" Type="Self.relationship" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="entrymodels" Type="Self.entrymodel" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="relationships">
+              <PropertyRef Name="Rid" />
+            </Principal>
+            <Dependent Role="entrymodels">
+              <PropertyRef Name="Rid" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_EntryModels_Visa_Category_visacategory_id">
+          <End Role="visa_category" Type="Self.visa_category" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="entrymodels" Type="Self.entrymodel" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="visa_category">
+              <PropertyRef Name="visacategory_id" />
+            </Principal>
+            <Dependent Role="entrymodels">
+              <PropertyRef Name="visacategory_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="medicaldbEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="entrymodels" EntityType="Self.entrymodel" />
+          <EntitySet Name="genders" EntityType="Self.gender" />
+          <EntitySet Name="grosssalaries" EntityType="Self.grosssalary" />
+          <EntitySet Name="marital_status" EntityType="Self.marital_status" />
+          <EntitySet Name="relationships" EntityType="Self.relationship" />
+          <EntitySet Name="visa_category" EntityType="Self.visa_category" />
+          <AssociationSet Name="FK_EntryModels_Genders_gender_id" Association="Self.FK_EntryModels_Genders_gender_id">
+            <End Role="genders" EntitySet="genders" />
+            <End Role="entrymodels" EntitySet="entrymodels" />
+          </AssociationSet>
+          <AssociationSet Name="FK_EntryModels_GrossSalaries_Sid" Association="Self.FK_EntryModels_GrossSalaries_Sid">
+            <End Role="grosssalaries" EntitySet="grosssalaries" />
+            <End Role="entrymodels" EntitySet="entrymodels" />
+          </AssociationSet>
+          <AssociationSet Name="FK_EntryModels_Marital_Status_maritalstatus_id" Association="Self.FK_EntryModels_Marital_Status_maritalstatus_id">
+            <End Role="marital_status" EntitySet="marital_status" />
+            <End Role="entrymodels" EntitySet="entrymodels" />
+          </AssociationSet>
+          <AssociationSet Name="FK_EntryModels_Relationships_Rid" Association="Self.FK_EntryModels_Relationships_Rid">
+            <End Role="relationships" EntitySet="relationships" />
+            <End Role="entrymodels" EntitySet="entrymodels" />
+          </AssociationSet>
+          <AssociationSet Name="FK_EntryModels_Visa_Category_visacategory_id" Association="Self.FK_EntryModels_Visa_Category_visacategory_id">
+            <End Role="visa_category" EntitySet="visa_category" />
+            <End Role="entrymodels" EntitySet="entrymodels" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="medicaldbModelStoreContainer" CdmEntityContainer="medicaldbEntities">
+          <EntitySetMapping Name="entrymodels">
+            <EntityTypeMapping TypeName="medicaldbModel.entrymodel">
+              <MappingFragment StoreEntitySet="entrymodels">
+                <ScalarProperty Name="other_field_3" ColumnName="other_field_3" />
+                <ScalarProperty Name="other_field_2" ColumnName="other_field_2" />
+                <ScalarProperty Name="other_field_1" ColumnName="other_field_1" />
+                <ScalarProperty Name="EntryId" ColumnName="EntryId" />
+                <ScalarProperty Name="Beneficiary_First_Name" ColumnName="Beneficiary_First_Name" />
+                <ScalarProperty Name="Beneficiary_Middle_Name" ColumnName="Beneficiary_Middle_Name" />
+                <ScalarProperty Name="Beneficiary_Last_Name" ColumnName="Beneficiary_Last_Name" />
+                <ScalarProperty Name="Principal_First_Name" ColumnName="Principal_First_Name" />
+                <ScalarProperty Name="Principal_Middle_Name" ColumnName="Principal_Middle_Name" />
+                <ScalarProperty Name="Principal_Last_Name" ColumnName="Principal_Last_Name" />
+                <ScalarProperty Name="DOB" ColumnName="DOB" />
+                <ScalarProperty Name="maritalstatus_id" ColumnName="maritalstatus_id" />
+                <ScalarProperty Name="visacategory_id" ColumnName="visacategory_id" />
+                <ScalarProperty Name="Passport_Number" ColumnName="Passport_Number" />
+                <ScalarProperty Name="Category" ColumnName="Category" />
+                <ScalarProperty Name="Nationality" ColumnName="Nationality" />
+                <ScalarProperty Name="gender_id" ColumnName="gender_id" />
+                <ScalarProperty Name="Rid" ColumnName="Rid" />
+                <ScalarProperty Name="Sid" ColumnName="Sid" />
+                <ScalarProperty Name="Emirates_ID" ColumnName="Emirates_ID" />
+                <ScalarProperty Name="City_of_Residence" ColumnName="City_of_Residence" />
+                <ScalarProperty Name="Company_Name" ColumnName="Company_Name" />
+                <ScalarProperty Name="UID_Number" ColumnName="UID_Number" />
+                <ScalarProperty Name="SubGroup_Name" ColumnName="SubGroup_Name" />
+                <ScalarProperty Name="Emirates_Of_Visa" ColumnName="Emirates_Of_Visa" />
+                <ScalarProperty Name="Work_Location" ColumnName="Work_Location" />
+                <ScalarProperty Name="Entity_Id" ColumnName="Entity_Id" />
+                <ScalarProperty Name="Entity_Type" ColumnName="Entity_Type" />
+                <ScalarProperty Name="Establishment_Id" ColumnName="Establishment_Id" />
+                <ScalarProperty Name="insurance_companyname" ColumnName="insurance_companyname" />
+                <ScalarProperty Name="policy" ColumnName="policy" />
+                <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="photo" ColumnName="photo" />
+                <ScalarProperty Name="Visa" ColumnName="Visa" />
+                <ScalarProperty Name="passport_copy" ColumnName="passport_copy" />
+                <ScalarProperty Name="Emirates_id_copy" ColumnName="Emirates_id_copy" />
+                <ScalarProperty Name="medical_card" ColumnName="medical_card" />
+                <ScalarProperty Name="other_documents" ColumnName="other_documents" />
+                <ScalarProperty Name="Date_Time" ColumnName="Date_Time" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="genders">
+            <EntityTypeMapping TypeName="medicaldbModel.gender">
+              <MappingFragment StoreEntitySet="genders">
+                <ScalarProperty Name="gender_id" ColumnName="gender_id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="grosssalaries">
+            <EntityTypeMapping TypeName="medicaldbModel.grosssalary">
+              <MappingFragment StoreEntitySet="grosssalaries">
+                <ScalarProperty Name="Sid" ColumnName="Sid" />
+                <ScalarProperty Name="Value" ColumnName="Value" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="marital_status">
+            <EntityTypeMapping TypeName="medicaldbModel.marital_status">
+              <MappingFragment StoreEntitySet="marital_status">
+                <ScalarProperty Name="maritalstatus_id" ColumnName="maritalstatus_id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="relationships">
+            <EntityTypeMapping TypeName="medicaldbModel.relationship">
+              <MappingFragment StoreEntitySet="relationships">
+                <ScalarProperty Name="Rid" ColumnName="Rid" />
+                <ScalarProperty Name="RelationName" ColumnName="RelationName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="visa_category">
+            <EntityTypeMapping TypeName="medicaldbModel.visa_category">
+              <MappingFragment StoreEntitySet="visa_category">
+                <ScalarProperty Name="visacategory_id" ColumnName="visacategory_id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

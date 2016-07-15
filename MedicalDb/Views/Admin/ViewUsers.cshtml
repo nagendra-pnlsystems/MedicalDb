@@ -1,0 +1,39 @@
+﻿@model IEnumerable<MedicalDb.Models.ApplicationUser>
+
+@{
+    ViewBag.Title = "ViewUsers";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Users</h2>
+
+<p>
+    @Html.ActionLink("Add New User", "Register","Account")
+</p>
+<table class="table">
+    <tr>
+
+        <th>UserName</th>
+        <th>Email</th>
+
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.UserName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+
+            <td>
+                @Html.ActionLink("Delete User", "DeleteUser", new { userid = item.Id })
+            </td>
+        </tr>
+    }
+
+</table>

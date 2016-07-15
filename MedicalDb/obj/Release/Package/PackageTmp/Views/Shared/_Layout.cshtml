@@ -1,0 +1,118 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NSIB Medical Database</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @*<link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">*@
+    <link rel="stylesheet" href="~/Content/jquery-ui.css">
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <table style="text-align:center">
+                            <tr><td><img src="~/images/logo.png"></td></tr>
+                            <tr><td><br><img src="~/images/tagline.jpg"></td></tr>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="col-md-9" style="padding:0px 60px 20px 0px;">
+
+                    <div class="row">
+                        <div class="navbar-collapse collapse navbar-right">
+                            <ul class="nav navbar-nav">
+                                @{
+                                    if (User.IsInRole("User"))
+                                    {
+                                        <li>@Html.ActionLink("Reports", "Index", "EntryModels")</li>
+                                        <li>@Html.ActionLink("Data Entry", "Create", "EntryModels")</li>
+                                    }
+                                    else if (User.IsInRole("Admin"))
+                                    {
+                                        <li>@Html.ActionLink("Reports", "Index", "EntryModels")</li>
+                                        <li>@Html.ActionLink("Add User", "Register", "Account")</li>
+                                        <li>@Html.ActionLink("Gross Salary", "GrossSalary", "Admin")</li>
+                                        <li>@Html.ActionLink("Relationships", "Relationship", "Admin")</li>
+
+                                    }
+                                   
+                                }
+                            </ul>
+                            @Html.Partial("_LoginPartial")
+                        </div>
+                    </div>
+                    <div class="row col-md-12">
+                        <table class="header-info">
+                            <tr>
+                                <td>User &nbsp;&nbsp;</td>
+                                <td>
+                                    @using Microsoft.AspNet.Identity
+                                        @if (Request.IsAuthenticated)
+                                        {
+                                            using (Html.BeginForm())
+                                            {
+                                                //@Html.AntiForgeryToken()
+                                                @Html.ActionLink(" " + User.Identity.GetUserName() + "", "ChangePassword", "Manage", routeValues: null, htmlAttributes: new { title = "Change Password", Class = "form-control " })
+
+                                            }
+                                        }
+                                </td>
+                            </tr>
+                            <tr><td>Date  </td><td class="form-control">@DateTime.Now<td></tr>
+                        </table>
+                    </div>
+                    <div class="row search-row">
+                        <div class="col-md-4 search-fields">
+                            @using (Html.BeginForm("Index", "EntryModels", FormMethod.Get))
+                            {
+
+                                @Html.TextBox("CompanySearchString", ViewBag.companycurrentFilter as string, new { Class = "submit-inputs", placeholder = "Company Name" })
+                                <input type="submit" value="Search" class="submit-buttons" />
+
+                            }
+                        </div>
+                        <div class="col-md-4 search-fields">
+                            @using (Html.BeginForm("Index", "EntryModels", FormMethod.Get))
+                            {
+
+                                @Html.TextBox("EmployeeSearchString", ViewBag.employeecurrentFilter as string, new { Class = "submit-inputs", placeholder = "Beneficiary First Name" })
+                                <input type="submit" value="Search" class="submit-buttons" />
+
+                            }
+                        </div>
+                        <div class="col-md-4 search-fields">
+                            @using (Html.BeginForm("Index", "EntryModels", FormMethod.Get))
+                            {
+
+                                @Html.TextBox("SearchString", ViewBag.currentFilter as string, new { Class = "submit-inputs", placeholder = "Search" })
+                                <input type="submit" value="Search" class="submit-buttons" />
+
+                            }
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container body-content">
+        @RenderBody()
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+  </body>
+</html>

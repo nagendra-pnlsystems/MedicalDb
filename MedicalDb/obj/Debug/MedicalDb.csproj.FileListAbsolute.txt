@@ -1,0 +1,570 @@
+D:\Final\MedicalDb\MedicalDb\bin\MedicalDb.dll.config
+D:\Final\MedicalDb\MedicalDb\bin\MedicalDb.dll
+D:\Final\MedicalDb\MedicalDb\bin\MedicalDb.pdb
+D:\Final\MedicalDb\MedicalDb\bin\Antlr3.Runtime.dll
+D:\Final\MedicalDb\MedicalDb\bin\EntityFramework.dll
+D:\Final\MedicalDb\MedicalDb\bin\EntityFramework.SqlServer.dll
+D:\Final\MedicalDb\MedicalDb\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Final\MedicalDb\MedicalDb\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Final\MedicalDb\MedicalDb\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Final\MedicalDb\MedicalDb\bin\Microsoft.Owin.dll
+D:\Final\MedicalDb\MedicalDb\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Final\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Final\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.dll
+D:\Final\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Final\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.Google.dll
+D:\Final\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Final\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Final\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Final\MedicalDb\MedicalDb\bin\Microsoft.Web.Infrastructure.dll
+D:\Final\MedicalDb\MedicalDb\bin\MySql.AspNet.Identity.dll
+D:\Final\MedicalDb\MedicalDb\bin\MySql.Data.dll
+D:\Final\MedicalDb\MedicalDb\bin\MySql.Data.Entity.EF6.dll
+D:\Final\MedicalDb\MedicalDb\bin\MySql.Web.dll
+D:\Final\MedicalDb\MedicalDb\bin\Newtonsoft.Json.dll
+D:\Final\MedicalDb\MedicalDb\bin\Owin.dll
+D:\Final\MedicalDb\MedicalDb\bin\System.Web.Helpers.dll
+D:\Final\MedicalDb\MedicalDb\bin\System.Web.Mvc.dll
+D:\Final\MedicalDb\MedicalDb\bin\System.Web.Optimization.dll
+D:\Final\MedicalDb\MedicalDb\bin\System.Web.Razor.dll
+D:\Final\MedicalDb\MedicalDb\bin\System.Web.WebPages.Deployment.dll
+D:\Final\MedicalDb\MedicalDb\bin\System.Web.WebPages.dll
+D:\Final\MedicalDb\MedicalDb\bin\System.Web.WebPages.Razor.dll
+D:\Final\MedicalDb\MedicalDb\bin\WebGrease.dll
+D:\Final\MedicalDb\MedicalDb\bin\WebMatrix.Data.dll
+D:\Final\MedicalDb\MedicalDb\bin\WebMatrix.WebData.dll
+D:\Final\MedicalDb\MedicalDb\bin\EntityFramework.xml
+D:\Final\MedicalDb\MedicalDb\bin\EntityFramework.SqlServer.xml
+D:\Final\MedicalDb\MedicalDb\bin\MySql.AspNet.Identity.pdb
+D:\Final\MedicalDb\MedicalDb\bin\System.Web.Helpers.xml
+D:\Final\MedicalDb\MedicalDb\bin\System.Web.Mvc.xml
+D:\Final\MedicalDb\MedicalDb\bin\System.Web.Optimization.xml
+D:\Final\MedicalDb\MedicalDb\bin\System.Web.Razor.xml
+D:\Final\MedicalDb\MedicalDb\bin\System.Web.WebPages.xml
+D:\Final\MedicalDb\MedicalDb\bin\System.Web.WebPages.Deployment.xml
+D:\Final\MedicalDb\MedicalDb\bin\System.Web.WebPages.Razor.xml
+D:\Final\MedicalDb\MedicalDb\bin\Antlr3.Runtime.pdb
+D:\Final\MedicalDb\MedicalDb\bin\WebMatrix.Data.xml
+D:\Final\MedicalDb\MedicalDb\bin\WebMatrix.WebData.xml
+D:\Final\MedicalDb\MedicalDb\bin\Newtonsoft.Json.xml
+D:\Final\MedicalDb\MedicalDb\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Final\MedicalDb\MedicalDb\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Final\MedicalDb\MedicalDb\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Final\MedicalDb\MedicalDb\bin\Microsoft.Owin.xml
+D:\Final\MedicalDb\MedicalDb\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Final\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.xml
+D:\Final\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Final\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Final\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Final\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.Google.xml
+D:\Final\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Final\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Final\MedicalDb\MedicalDb\obj\Debug\MedicalDb.dll
+D:\Final\MedicalDb\MedicalDb\obj\Debug\MedicalDb.pdb
+D:\Final\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate.resources
+D:\Final\MedicalDb\MedicalDb\obj\Debug\MedicalDb.csproj.GenerateResource.Cache
+D:\Final\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate1.resources
+D:\Final\MedicalDb\MedicalDb\bin\PagedList.dll
+D:\Final\MedicalDb\MedicalDb\bin\PagedList.Mvc.dll
+D:\Final\MedicalDb\MedicalDb\bin\PagedList.xml
+D:\Final\MedicalDb\MedicalDb\bin\PagedList.Mvc.xml
+D:\Final\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate2.resources
+D:\Final\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate3.resources
+D:\Final\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate4.resources
+D:\Final\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate5.resources
+D:\Final\MedicalDb\MedicalDb\obj\Debug\MedicalDb.csprojResolveAssemblyReference.cache
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\bin\MedicalDb.dll.config
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\bin\MedicalDb.dll
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\bin\MedicalDb.pdb
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\bin\Antlr3.Runtime.dll
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\bin\EntityFramework.dll
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\bin\EntityFramework.SqlServer.dll
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\bin\Microsoft.AspNet.Identity.Core.dll
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\bin\Microsoft.AspNet.Identity.Owin.dll
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\bin\Microsoft.Owin.dll
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\bin\Microsoft.Owin.Host.SystemWeb.dll
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.Cookies.dll
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.dll
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.Facebook.dll
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.Google.dll
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.OAuth.dll
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.Twitter.dll
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\bin\Microsoft.Web.Infrastructure.dll
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\bin\MySql.AspNet.Identity.dll
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\bin\MySql.Data.dll
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\bin\MySql.Data.Entity.EF6.dll
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\bin\MySql.Web.dll
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\bin\Newtonsoft.Json.dll
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\bin\Owin.dll
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\bin\PagedList.dll
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\bin\PagedList.Mvc.dll
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\bin\System.Web.Helpers.dll
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\bin\System.Web.Mvc.dll
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\bin\System.Web.Optimization.dll
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\bin\System.Web.Razor.dll
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\bin\System.Web.WebPages.Deployment.dll
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\bin\System.Web.WebPages.dll
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\bin\System.Web.WebPages.Razor.dll
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\bin\WebGrease.dll
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\bin\WebMatrix.Data.dll
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\bin\WebMatrix.WebData.dll
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\bin\EntityFramework.xml
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\bin\EntityFramework.SqlServer.xml
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\bin\MySql.AspNet.Identity.pdb
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\bin\PagedList.xml
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\bin\PagedList.Mvc.xml
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\bin\System.Web.Helpers.xml
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\bin\System.Web.Mvc.xml
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\bin\System.Web.Optimization.xml
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\bin\System.Web.Razor.xml
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\bin\System.Web.WebPages.xml
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\bin\System.Web.WebPages.Deployment.xml
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\bin\System.Web.WebPages.Razor.xml
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\bin\Antlr3.Runtime.pdb
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\bin\WebMatrix.Data.xml
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\bin\WebMatrix.WebData.xml
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\bin\Newtonsoft.Json.xml
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\bin\Microsoft.AspNet.Identity.Core.xml
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\bin\Microsoft.AspNet.Identity.Owin.xml
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\bin\Microsoft.Owin.xml
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\bin\Microsoft.Owin.Host.SystemWeb.xml
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.xml
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.Facebook.xml
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.Cookies.xml
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.OAuth.xml
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.Google.xml
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.Twitter.xml
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate.resources
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate1.resources
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate2.resources
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate3.resources
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate4.resources
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate5.resources
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\obj\Debug\MedicalDb.csproj.GenerateResource.Cache
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\obj\Debug\MedicalDb.dll
+G:\mdb\MedicalDb 27-04-2016  6-30pm\MedicalDb\MedicalDb\obj\Debug\MedicalDb.pdb
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\bin\MedicalDb.dll.config
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\bin\MedicalDb.dll
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\bin\MedicalDb.pdb
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\bin\Antlr3.Runtime.dll
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\bin\EntityFramework.dll
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\bin\EntityFramework.SqlServer.dll
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\bin\Microsoft.Owin.dll
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.dll
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\bin\MySql.AspNet.Identity.dll
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\bin\MySql.Data.dll
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\bin\MySql.Data.Entity.EF6.dll
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\bin\MySql.Web.dll
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\bin\Newtonsoft.Json.dll
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\bin\Owin.dll
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\bin\PagedList.dll
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\bin\PagedList.Mvc.dll
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\bin\System.Web.Helpers.dll
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\bin\System.Web.Mvc.dll
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\bin\System.Web.Optimization.dll
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\bin\System.Web.Razor.dll
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\bin\System.Web.WebPages.dll
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\bin\System.Web.WebPages.Razor.dll
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\bin\WebGrease.dll
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\bin\WebMatrix.Data.dll
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\bin\WebMatrix.WebData.dll
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\bin\EntityFramework.xml
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\bin\EntityFramework.SqlServer.xml
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\bin\MySql.AspNet.Identity.pdb
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\bin\PagedList.xml
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\bin\PagedList.Mvc.xml
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\bin\System.Web.Helpers.xml
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\bin\System.Web.Mvc.xml
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\bin\System.Web.Optimization.xml
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\bin\System.Web.Razor.xml
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\bin\System.Web.WebPages.xml
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\bin\System.Web.WebPages.Razor.xml
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\bin\Antlr3.Runtime.pdb
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\bin\WebMatrix.Data.xml
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\bin\WebMatrix.WebData.xml
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\bin\Newtonsoft.Json.xml
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\bin\Microsoft.Owin.xml
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.xml
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\obj\Debug\MedicalDb.csprojResolveAssemblyReference.cache
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate.resources
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate1.resources
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate2.resources
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate3.resources
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate4.resources
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate5.resources
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\obj\Debug\MedicalDb.csproj.GenerateResource.Cache
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\obj\Debug\MedicalDb.dll
+C:\Users\Naidu\Desktop\MedicalDb_Working_280420160933\MedicalDb\MedicalDb\obj\Debug\MedicalDb.pdb
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\bin\MedicalDb.dll.config
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\bin\MedicalDb.dll
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\bin\MedicalDb.pdb
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\bin\Antlr3.Runtime.dll
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\bin\EntityFramework.dll
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\bin\EntityFramework.SqlServer.dll
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\bin\Microsoft.Owin.dll
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.dll
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\bin\MySql.AspNet.Identity.dll
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\bin\MySql.Data.dll
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\bin\MySql.Data.Entity.EF6.dll
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\bin\MySql.Web.dll
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\bin\Newtonsoft.Json.dll
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\bin\Owin.dll
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\bin\PagedList.dll
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\bin\PagedList.Mvc.dll
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\bin\System.Web.Helpers.dll
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\bin\System.Web.Mvc.dll
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\bin\System.Web.Optimization.dll
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\bin\System.Web.Razor.dll
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\bin\System.Web.WebPages.dll
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\bin\System.Web.WebPages.Razor.dll
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\bin\WebGrease.dll
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\bin\WebMatrix.Data.dll
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\bin\WebMatrix.WebData.dll
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\bin\EntityFramework.xml
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\bin\EntityFramework.SqlServer.xml
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\bin\MySql.AspNet.Identity.pdb
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\bin\PagedList.xml
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\bin\PagedList.Mvc.xml
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\bin\System.Web.Helpers.xml
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\bin\System.Web.Mvc.xml
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\bin\System.Web.Optimization.xml
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\bin\System.Web.Razor.xml
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\bin\System.Web.WebPages.xml
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\bin\System.Web.WebPages.Razor.xml
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\bin\Antlr3.Runtime.pdb
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\bin\WebMatrix.Data.xml
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\bin\WebMatrix.WebData.xml
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\bin\Newtonsoft.Json.xml
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\bin\Microsoft.Owin.xml
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.xml
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate.resources
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate1.resources
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate2.resources
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate3.resources
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate4.resources
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate5.resources
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate6.resources
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate7.resources
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate8.resources
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate9.resources
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate10.resources
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate11.resources
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\obj\Debug\MedicalDb.csproj.GenerateResource.Cache
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\obj\Debug\MedicalDb.dll
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\obj\Debug\MedicalDb.pdb
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate12.resources
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate13.resources
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate14.resources
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate15.resources
+C:\Users\Naidu\Desktop\MedicalDb\MedicalDb\obj\Debug\MedicalDb.csprojResolveAssemblyReference.cache
+D:\Work\MedicalDb\MedicalDb\bin\MedicalDb.dll.config
+D:\Work\MedicalDb\MedicalDb\bin\MedicalDb.dll
+D:\Work\MedicalDb\MedicalDb\bin\MedicalDb.pdb
+D:\Work\MedicalDb\MedicalDb\bin\Antlr3.Runtime.dll
+D:\Work\MedicalDb\MedicalDb\bin\EntityFramework.dll
+D:\Work\MedicalDb\MedicalDb\bin\EntityFramework.SqlServer.dll
+D:\Work\MedicalDb\MedicalDb\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Work\MedicalDb\MedicalDb\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Work\MedicalDb\MedicalDb\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Work\MedicalDb\MedicalDb\bin\Microsoft.Owin.dll
+D:\Work\MedicalDb\MedicalDb\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Work\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Work\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.dll
+D:\Work\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Work\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.Google.dll
+D:\Work\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Work\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Work\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Work\MedicalDb\MedicalDb\bin\Microsoft.Web.Infrastructure.dll
+D:\Work\MedicalDb\MedicalDb\bin\MySql.AspNet.Identity.dll
+D:\Work\MedicalDb\MedicalDb\bin\MySql.Data.dll
+D:\Work\MedicalDb\MedicalDb\bin\MySql.Data.Entity.EF6.dll
+D:\Work\MedicalDb\MedicalDb\bin\MySql.Web.dll
+D:\Work\MedicalDb\MedicalDb\bin\Newtonsoft.Json.dll
+D:\Work\MedicalDb\MedicalDb\bin\Owin.dll
+D:\Work\MedicalDb\MedicalDb\bin\PagedList.dll
+D:\Work\MedicalDb\MedicalDb\bin\PagedList.Mvc.dll
+D:\Work\MedicalDb\MedicalDb\bin\System.Web.Helpers.dll
+D:\Work\MedicalDb\MedicalDb\bin\System.Web.Mvc.dll
+D:\Work\MedicalDb\MedicalDb\bin\System.Web.Optimization.dll
+D:\Work\MedicalDb\MedicalDb\bin\System.Web.Razor.dll
+D:\Work\MedicalDb\MedicalDb\bin\System.Web.WebPages.Deployment.dll
+D:\Work\MedicalDb\MedicalDb\bin\System.Web.WebPages.dll
+D:\Work\MedicalDb\MedicalDb\bin\System.Web.WebPages.Razor.dll
+D:\Work\MedicalDb\MedicalDb\bin\WebGrease.dll
+D:\Work\MedicalDb\MedicalDb\bin\WebMatrix.Data.dll
+D:\Work\MedicalDb\MedicalDb\bin\WebMatrix.WebData.dll
+D:\Work\MedicalDb\MedicalDb\bin\EntityFramework.xml
+D:\Work\MedicalDb\MedicalDb\bin\EntityFramework.SqlServer.xml
+D:\Work\MedicalDb\MedicalDb\bin\MySql.AspNet.Identity.pdb
+D:\Work\MedicalDb\MedicalDb\bin\PagedList.xml
+D:\Work\MedicalDb\MedicalDb\bin\PagedList.Mvc.xml
+D:\Work\MedicalDb\MedicalDb\bin\System.Web.Helpers.xml
+D:\Work\MedicalDb\MedicalDb\bin\System.Web.Mvc.xml
+D:\Work\MedicalDb\MedicalDb\bin\System.Web.Optimization.xml
+D:\Work\MedicalDb\MedicalDb\bin\System.Web.Razor.xml
+D:\Work\MedicalDb\MedicalDb\bin\System.Web.WebPages.xml
+D:\Work\MedicalDb\MedicalDb\bin\System.Web.WebPages.Deployment.xml
+D:\Work\MedicalDb\MedicalDb\bin\System.Web.WebPages.Razor.xml
+D:\Work\MedicalDb\MedicalDb\bin\Antlr3.Runtime.pdb
+D:\Work\MedicalDb\MedicalDb\bin\WebMatrix.Data.xml
+D:\Work\MedicalDb\MedicalDb\bin\WebMatrix.WebData.xml
+D:\Work\MedicalDb\MedicalDb\bin\Newtonsoft.Json.xml
+D:\Work\MedicalDb\MedicalDb\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Work\MedicalDb\MedicalDb\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Work\MedicalDb\MedicalDb\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Work\MedicalDb\MedicalDb\bin\Microsoft.Owin.xml
+D:\Work\MedicalDb\MedicalDb\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Work\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.xml
+D:\Work\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Work\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Work\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Work\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.Google.xml
+D:\Work\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Work\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Work\MedicalDb\MedicalDb\obj\Debug\MedicalDb.csprojResolveAssemblyReference.cache
+D:\Work\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate.resources
+D:\Work\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate1.resources
+D:\Work\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate2.resources
+D:\Work\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate3.resources
+D:\Work\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate4.resources
+D:\Work\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate5.resources
+D:\Work\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate6.resources
+D:\Work\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate7.resources
+D:\Work\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate8.resources
+D:\Work\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate9.resources
+D:\Work\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate10.resources
+D:\Work\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate11.resources
+D:\Work\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate12.resources
+D:\Work\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate13.resources
+D:\Work\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate14.resources
+D:\Work\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate15.resources
+D:\Work\MedicalDb\MedicalDb\obj\Debug\MedicalDb.csproj.GenerateResource.Cache
+D:\Work\MedicalDb\MedicalDb\obj\Debug\MedicalDb.dll
+D:\Work\MedicalDb\MedicalDb\obj\Debug\MedicalDb.pdb
+D:\Work\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate16.resources
+D:\Work\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate17.resources
+D:\MedicalDb\MedicalDb\bin\MedicalDb.dll.config
+D:\MedicalDb\MedicalDb\bin\MedicalDb.dll
+D:\MedicalDb\MedicalDb\bin\MedicalDb.pdb
+D:\MedicalDb\MedicalDb\bin\Antlr3.Runtime.dll
+D:\MedicalDb\MedicalDb\bin\EntityFramework.dll
+D:\MedicalDb\MedicalDb\bin\EntityFramework.SqlServer.dll
+D:\MedicalDb\MedicalDb\bin\Microsoft.AspNet.Identity.Core.dll
+D:\MedicalDb\MedicalDb\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\MedicalDb\MedicalDb\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\MedicalDb\MedicalDb\bin\Microsoft.Owin.dll
+D:\MedicalDb\MedicalDb\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.Cookies.dll
+D:\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.dll
+D:\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.Facebook.dll
+D:\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.Google.dll
+D:\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.OAuth.dll
+D:\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.Twitter.dll
+D:\MedicalDb\MedicalDb\bin\Microsoft.Web.Infrastructure.dll
+D:\MedicalDb\MedicalDb\bin\MySql.AspNet.Identity.dll
+D:\MedicalDb\MedicalDb\bin\MySql.Data.dll
+D:\MedicalDb\MedicalDb\bin\MySql.Data.Entity.EF6.dll
+D:\MedicalDb\MedicalDb\bin\MySql.Web.dll
+D:\MedicalDb\MedicalDb\bin\Newtonsoft.Json.dll
+D:\MedicalDb\MedicalDb\bin\Owin.dll
+D:\MedicalDb\MedicalDb\bin\PagedList.dll
+D:\MedicalDb\MedicalDb\bin\PagedList.Mvc.dll
+D:\MedicalDb\MedicalDb\bin\System.Web.Helpers.dll
+D:\MedicalDb\MedicalDb\bin\System.Web.Mvc.dll
+D:\MedicalDb\MedicalDb\bin\System.Web.Optimization.dll
+D:\MedicalDb\MedicalDb\bin\System.Web.Razor.dll
+D:\MedicalDb\MedicalDb\bin\System.Web.WebPages.Deployment.dll
+D:\MedicalDb\MedicalDb\bin\System.Web.WebPages.dll
+D:\MedicalDb\MedicalDb\bin\System.Web.WebPages.Razor.dll
+D:\MedicalDb\MedicalDb\bin\WebGrease.dll
+D:\MedicalDb\MedicalDb\bin\WebMatrix.Data.dll
+D:\MedicalDb\MedicalDb\bin\WebMatrix.WebData.dll
+D:\MedicalDb\MedicalDb\bin\EntityFramework.xml
+D:\MedicalDb\MedicalDb\bin\EntityFramework.SqlServer.xml
+D:\MedicalDb\MedicalDb\bin\MySql.AspNet.Identity.pdb
+D:\MedicalDb\MedicalDb\bin\PagedList.xml
+D:\MedicalDb\MedicalDb\bin\PagedList.Mvc.xml
+D:\MedicalDb\MedicalDb\bin\System.Web.Helpers.xml
+D:\MedicalDb\MedicalDb\bin\System.Web.Mvc.xml
+D:\MedicalDb\MedicalDb\bin\System.Web.Optimization.xml
+D:\MedicalDb\MedicalDb\bin\System.Web.Razor.xml
+D:\MedicalDb\MedicalDb\bin\System.Web.WebPages.xml
+D:\MedicalDb\MedicalDb\bin\System.Web.WebPages.Deployment.xml
+D:\MedicalDb\MedicalDb\bin\System.Web.WebPages.Razor.xml
+D:\MedicalDb\MedicalDb\bin\Antlr3.Runtime.pdb
+D:\MedicalDb\MedicalDb\bin\WebMatrix.Data.xml
+D:\MedicalDb\MedicalDb\bin\WebMatrix.WebData.xml
+D:\MedicalDb\MedicalDb\bin\Newtonsoft.Json.xml
+D:\MedicalDb\MedicalDb\bin\Microsoft.AspNet.Identity.Core.xml
+D:\MedicalDb\MedicalDb\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\MedicalDb\MedicalDb\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\MedicalDb\MedicalDb\bin\Microsoft.Owin.xml
+D:\MedicalDb\MedicalDb\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.xml
+D:\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.Facebook.xml
+D:\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.Cookies.xml
+D:\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.OAuth.xml
+D:\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.Google.xml
+D:\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.Twitter.xml
+D:\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\MedicalDb\MedicalDb\obj\Debug\MedicalDb.csprojResolveAssemblyReference.cache
+D:\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate.resources
+D:\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate1.resources
+D:\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate2.resources
+D:\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate3.resources
+D:\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate4.resources
+D:\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate5.resources
+D:\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate6.resources
+D:\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate7.resources
+D:\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate8.resources
+D:\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate9.resources
+D:\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate10.resources
+D:\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate11.resources
+D:\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate12.resources
+D:\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate13.resources
+D:\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate14.resources
+D:\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate15.resources
+D:\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate16.resources
+D:\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate17.resources
+D:\MedicalDb\MedicalDb\obj\Debug\MedicalDb.csproj.GenerateResource.Cache
+D:\MedicalDb\MedicalDb\obj\Debug\MedicalDb.dll
+D:\MedicalDb\MedicalDb\obj\Debug\MedicalDb.pdb
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate.resources
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate1.resources
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate2.resources
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate3.resources
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate4.resources
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate5.resources
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate6.resources
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate7.resources
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate8.resources
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate9.resources
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate10.resources
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate11.resources
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate12.resources
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate13.resources
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate14.resources
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate15.resources
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate16.resources
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\obj\Debug\MedicalDb.Migrations.InitialCreate17.resources
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\obj\Debug\MedicalDb.csproj.GenerateResource.Cache
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\obj\Debug\MedicalDb.dll
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\obj\Debug\MedicalDb.pdb
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\bin\MedicalDb.dll.config
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\bin\MedicalDb.dll
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\bin\MedicalDb.pdb
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\bin\Antlr3.Runtime.dll
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\bin\EntityFramework.dll
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\bin\EntityFramework.SqlServer.dll
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\bin\Microsoft.Owin.dll
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.dll
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\bin\MySql.AspNet.Identity.dll
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\bin\MySql.Data.dll
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\bin\MySql.Data.Entity.EF6.dll
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\bin\MySql.Web.dll
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\bin\Newtonsoft.Json.dll
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\bin\Owin.dll
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\bin\PagedList.dll
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\bin\PagedList.Mvc.dll
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\bin\System.Web.Helpers.dll
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\bin\System.Web.Mvc.dll
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\bin\System.Web.Optimization.dll
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\bin\System.Web.Razor.dll
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\bin\System.Web.WebPages.dll
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\bin\System.Web.WebPages.Razor.dll
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\bin\WebGrease.dll
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\bin\WebMatrix.Data.dll
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\bin\WebMatrix.WebData.dll
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\bin\EntityFramework.xml
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\bin\EntityFramework.SqlServer.xml
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\bin\MySql.AspNet.Identity.pdb
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\bin\PagedList.xml
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\bin\PagedList.Mvc.xml
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\bin\System.Web.Helpers.xml
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\bin\System.Web.Mvc.xml
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\bin\System.Web.Optimization.xml
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\bin\System.Web.Razor.xml
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\bin\System.Web.WebPages.xml
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\bin\System.Web.WebPages.Razor.xml
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\bin\Antlr3.Runtime.pdb
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\bin\WebMatrix.Data.xml
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\bin\WebMatrix.WebData.xml
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\bin\Newtonsoft.Json.xml
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\bin\Microsoft.Owin.xml
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.xml
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Naidu\Documents\Visual Studio 2013\Projects\MedicalDb\MedicalDb\obj\Debug\MedicalDb.medicaldb.resources

@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="medicaldbModelStoreContainer" CdmEntityContainer="medicaldbEntities">
+    <EntitySetMapping Name="entrymodels">
+      <EntityTypeMapping TypeName="medicaldbModel.entrymodel">
+        <MappingFragment StoreEntitySet="entrymodels">
+          <ScalarProperty Name="other_field_3" ColumnName="other_field_3" />
+          <ScalarProperty Name="other_field_2" ColumnName="other_field_2" />
+          <ScalarProperty Name="other_field_1" ColumnName="other_field_1" />
+          <ScalarProperty Name="EntryId" ColumnName="EntryId" />
+          <ScalarProperty Name="Beneficiary_First_Name" ColumnName="Beneficiary_First_Name" />
+          <ScalarProperty Name="Beneficiary_Middle_Name" ColumnName="Beneficiary_Middle_Name" />
+          <ScalarProperty Name="Beneficiary_Last_Name" ColumnName="Beneficiary_Last_Name" />
+          <ScalarProperty Name="Principal_First_Name" ColumnName="Principal_First_Name" />
+          <ScalarProperty Name="Principal_Middle_Name" ColumnName="Principal_Middle_Name" />
+          <ScalarProperty Name="Principal_Last_Name" ColumnName="Principal_Last_Name" />
+          <ScalarProperty Name="DOB" ColumnName="DOB" />
+          <ScalarProperty Name="maritalstatus_id" ColumnName="maritalstatus_id" />
+          <ScalarProperty Name="visacategory_id" ColumnName="visacategory_id" />
+          <ScalarProperty Name="Passport_Number" ColumnName="Passport_Number" />
+          <ScalarProperty Name="Category" ColumnName="Category" />
+          <ScalarProperty Name="Nationality" ColumnName="Nationality" />
+          <ScalarProperty Name="gender_id" ColumnName="gender_id" />
+          <ScalarProperty Name="Rid" ColumnName="Rid" />
+          <ScalarProperty Name="Sid" ColumnName="Sid" />
+          <ScalarProperty Name="Emirates_ID" ColumnName="Emirates_ID" />
+          <ScalarProperty Name="City_of_Residence" ColumnName="City_of_Residence" />
+          <ScalarProperty Name="Company_Name" ColumnName="Company_Name" />
+          <ScalarProperty Name="UID_Number" ColumnName="UID_Number" />
+          <ScalarProperty Name="SubGroup_Name" ColumnName="SubGroup_Name" />
+          <ScalarProperty Name="Emirates_Of_Visa" ColumnName="Emirates_Of_Visa" />
+          <ScalarProperty Name="Work_Location" ColumnName="Work_Location" />
+          <ScalarProperty Name="Entity_Id" ColumnName="Entity_Id" />
+          <ScalarProperty Name="Entity_Type" ColumnName="Entity_Type" />
+          <ScalarProperty Name="Establishment_Id" ColumnName="Establishment_Id" />
+          <ScalarProperty Name="insurance_companyname" ColumnName="insurance_companyname" />
+          <ScalarProperty Name="policy" ColumnName="policy" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="photo" ColumnName="photo" />
+          <ScalarProperty Name="Visa" ColumnName="Visa" />
+          <ScalarProperty Name="passport_copy" ColumnName="passport_copy" />
+          <ScalarProperty Name="Emirates_id_copy" ColumnName="Emirates_id_copy" />
+          <ScalarProperty Name="medical_card" ColumnName="medical_card" />
+          <ScalarProperty Name="other_documents" ColumnName="other_documents" />
+          <ScalarProperty Name="Date_Time" ColumnName="Date_Time" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="genders">
+      <EntityTypeMapping TypeName="medicaldbModel.gender">
+        <MappingFragment StoreEntitySet="genders">
+          <ScalarProperty Name="gender_id" ColumnName="gender_id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="grosssalaries">
+      <EntityTypeMapping TypeName="medicaldbModel.grosssalary">
+        <MappingFragment StoreEntitySet="grosssalaries">
+          <ScalarProperty Name="Sid" ColumnName="Sid" />
+          <ScalarProperty Name="Value" ColumnName="Value" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="marital_status">
+      <EntityTypeMapping TypeName="medicaldbModel.marital_status">
+        <MappingFragment StoreEntitySet="marital_status">
+          <ScalarProperty Name="maritalstatus_id" ColumnName="maritalstatus_id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="relationships">
+      <EntityTypeMapping TypeName="medicaldbModel.relationship">
+        <MappingFragment StoreEntitySet="relationships">
+          <ScalarProperty Name="Rid" ColumnName="Rid" />
+          <ScalarProperty Name="RelationName" ColumnName="RelationName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="visa_category">
+      <EntityTypeMapping TypeName="medicaldbModel.visa_category">
+        <MappingFragment StoreEntitySet="visa_category">
+          <ScalarProperty Name="visacategory_id" ColumnName="visacategory_id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

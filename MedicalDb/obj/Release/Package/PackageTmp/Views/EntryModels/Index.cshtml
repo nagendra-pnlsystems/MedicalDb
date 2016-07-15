@@ -1,0 +1,211 @@
+﻿@model IEnumerable<MedicalDb.Models.EntryModel>
+
+<link rel="stylesheet" href="~/Content/paging.css" />
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@using (Html.BeginForm("Index", "EntryModels", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+
+    <div class="row" style="margin:0% 0px 1% 70%;">
+        <div class="col-md-6">
+            @*@using (Html.BeginForm("ExportToExcel", "EntryModels", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                {
+                    <button class="submit-buttons" id="btnExportToExcel">Export to Excel</button>
+                }*@
+            <button class="submit-buttons disabled" disabled="disabled" id="btnExportToExcel" name="action:ExportToExcel">Export to Excel</button>
+        </div>
+        <div class="col-md-6">
+            @*@using (Html.BeginForm("ExportToFolder", "EntryModels"))
+                {   <button class="submit-buttons">Export to Folder</button>
+                }*@
+            <button class="submit-buttons disabled" disabled="disabled" name="action:ExportToFolder" id="btnExportToFolder">Export to Folder</button>
+        </div>
+    </div>
+    if (!string.IsNullOrEmpty(ViewBag.Error))
+    {
+        <div class="row ui-state-error">
+            <span>@ViewBag.Error</span>
+        </div>
+    }
+    if (Model != null && Model.Count() > 0)
+    {
+        @*<table class="table">*@
+        <table id="tableData" class="table table-bordered table-striped">
+            <thead>
+                <tr>
+
+                    <th><input type="checkbox" id="chkSelectAll" name="chkSelectAll" /></th>
+
+                    <th>
+                        SL.NO
+                    </th>
+                    <th>
+                        @Html.ActionLink("Beneficiary Name", "Index", new { sortOrder = ViewBag.FNameSortParm, currentFilter = ViewBag.CurrentFilter })
+                    </th>
+                    <th>
+                        @Html.ActionLink("Principal Name", "Index", new { sortOrder = ViewBag.PNameSortParm, currentFilter = ViewBag.CurrentFilter })
+                    </th>
+                    <th>
+                        @Html.ActionLink("Relationship", "Index", new { sortOrder = ViewBag.RelSortParm, currentFilter = ViewBag.CurrentFilter })
+                    </th>
+                    <th>
+                        @Html.ActionLink("DOB", "Index", new { sortOrder = ViewBag.DateSortParm, currentFilter = ViewBag.CurrentFilter })
+                    </th>
+                    <th>
+                        @Html.ActionLink("Category", "Index", new { sortOrder = ViewBag.CatSortParm, currentFilter = ViewBag.CurrentFilter })
+                    </th>
+                    <th>
+                        @Html.ActionLink("Gender", "Index", new { sortOrder = ViewBag.GenSortParm, currentFilter = ViewBag.CurrentFilter })
+                    </th>
+                    <th>
+                        @Html.ActionLink("Insurance Company Name", "Index", new { sortOrder = ViewBag.ICSortParm, currentFilter = ViewBag.CurrentFilter })
+                    </th>
+                    <th>
+                        @Html.ActionLink("Policy#", "Index", new { sortOrder = ViewBag.PolicySortParm, currentFilter = ViewBag.CurrentFilter })
+                    </th>
+                    <th>
+                        @Html.ActionLink("Email", "Index", new { sortOrder = ViewBag.EmailSortParm, currentFilter = ViewBag.CurrentFilter })
+                    </th>
+                    @*<th>
+                            Total Files
+                        </th>*@
+
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @{int rowNo = 0;}
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td><input data-entryval="@item.EntryId" type="checkbox" id="@item.EntryId.ToString()" name="chkSelect" value="@item.EntryId" /></td>
+                        <td>
+                            @(rowNo += 1)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Beneficiary_First_Name)@Html.DisplayFor(modelItem => item.Beneficiary_Middle_Name)   @Html.DisplayFor(modelItem => item.Beneficiary_Last_Name)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Principal_First_Name)@Html.DisplayFor(modelItem => item.Principal_Middle_Name)  @Html.DisplayFor(modelItem => item.Principal_Last_Name)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Relationship.RelationName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.DOB)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Category)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Gender)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.insurance_companyname)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.policy)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Email)
+                        </td>
+                        @*<td>
+                                @if (item.FileDetail.Count() == 0)
+                                {
+                                    <span>No File</span>
+                                }
+                                else
+                                {
+                                    <span>@item.FileDetail.Count() File(s)</span>
+                                }
+                            </td>*@
+
+
+                        <td>
+                            @Html.ActionLink("Edit", "Edit", new { id = item.EntryId }) |
+                            @Html.ActionLink("Delete", "Delete", new { id = item.EntryId })
+                        </td>
+                    </tr>
+
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p style="align-content:center">No records to display.</p>
+    }
+
+}
+
+@section Scripts {
+    <script type="text/javascript" language="javascript">
+        $(document).ready(function () {
+            $('#tableData').paging({ limit: 7 });
+        });
+
+        $(document).ready(function () {
+            //$('#btnExportToExcel').click(function () {
+            //    window.location = '/ExportToExcel/ExportToExcel';
+            //});
+            $('#chkSelectAll').click(function () {
+                // if check all is checked, all checkboxes are checked
+                // if check all is unchecked, all checkboxes are cleared
+
+                if ($('#chkSelectAll').prop('checked')) {
+                    $('input:checkbox[name$=chkSelect]').each(
+                        function () {
+                            $(this).prop('checked', true);
+                        });
+                    $('#btnExportToExcel').removeAttr("disabled");
+                    $('#btnExportToExcel').removeClass("disabled");
+                    $('#btnExportToFolder').removeAttr("disabled");
+                    $('#btnExportToFolder').removeClass("disabled");
+                }
+                else {
+                    $('#btnExportToExcel').attr("disabled", "disabled");
+                    $('#btnExportToExcel').addClass("disabled");
+                    $('#btnExportToFolder').attr("disabled", "disabled");
+                    $('#btnExportToFolder').addClass("disabled");
+                    $('input:checkbox[name$=chkSelect]').each(
+                        function () {
+                            $(this).prop('checked', false);
+                        });
+                }
+            });
+
+
+            $('input:checkbox[name$=chkSelect]').click(function () {
+                // if any of the checkbox is unchecked
+                // check all checkbox should be cleared
+                if (!$(this).prop('checked')) {
+                    $('#chkSelectAll').prop('checked', false);
+                }
+                else {
+                    // if all of the checkbox is checked
+                    // check all checkbox should be checked
+                    if ($('input:checkbox[name$=chkSelect]').length ==
+                    $('input:checkbox[name$=chkSelect]:checked').length) {
+                        $('#chkSelectAll').prop('checked', true);
+                    }
+                }
+
+                if ($('input:checkbox[name$=chkSelect]:checked').length > 0) {
+                    $('#btnExportToExcel').removeAttr("disabled");
+                    $('#btnExportToExcel').removeClass("disabled");
+                    $('#btnExportToFolder').removeAttr("disabled");
+                    $('#btnExportToFolder').removeClass("disabled");
+                }
+                else {
+                    $('#btnExportToExcel').attr("disabled", "disabled");
+                    $('#btnExportToExcel').addClass("disabled");
+                    $('#btnExportToFolder').attr("disabled", "disabled");
+                    $('#btnExportToFolder').addClass("disabled");
+                }
+            });
+        });
+
+    </script>
+}
